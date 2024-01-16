@@ -13,7 +13,7 @@ jobs:
               uses: actions/setup-node@v1
               with:
                 node-version: "12.x"
-            - run: npm ci # ci similar to install - but it's more suitable for ci actions
+            - run: npm install
             - run: npm run format:check
             - run: npm run test -- --coverage
               env:
