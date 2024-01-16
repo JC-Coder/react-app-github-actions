@@ -2,9 +2,9 @@ name: CI
 
 on:
     pull_request:
-        branches: [dev]
+        branches: [dev-b] # change back to dev if want to run
     push:
-        branches: [dev]
+        branches: [dev-b]
 
 jobs:
     build:

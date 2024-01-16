@@ -1,0 +1,14 @@
+name: Hello World
+author: Jc-Coder
+description: Some Desc
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: JC
+outputs:
+  time:
+    description: 'The greeting time'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
